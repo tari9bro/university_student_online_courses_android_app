@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/departementsChef"
+        android:title="Head of department: Ahmed Chaouki Lokbani" >
+    </item>
+    <item
+        android:id="@+id/ITDepartment"
+        android:title="IT Department">
+
+        <menu>
+
+            <item
+                android:id="@+id/LMD1"
+                android:title="LMD 1" />
+            <item
+                android:id="@+id/LMD2"
+                android:title="LMD 2" />
+            <item
+                android:id="@+id/LMD3"
+                android:title="lmd-si 3" />
+            <item
+                android:id="@+id/M1micre"
+                android:title="M1-micre" />
+            <item
+                android:id="@+id/M1risr"
+                android:title="M1-risr" />
+            <item
+                android:id="@+id/M1sisic"
+                android:title="M1-sisic" />
+            <item
+                android:id="@+id/M1ipap"
+                android:title="M1-ip.ap" />
+            <item
+                android:id="@+id/M2micre"
+                android:title="M2-micre" />
+            <item
+                android:id="@+id/M2risr"
+                android:title="M2-risr" />
+            <item
+                android:id="@+id/M2sic"
+                android:title="M2-sic" />
+        </menu>
+    </item> </menu>
+<!--    @todo complete the other-->

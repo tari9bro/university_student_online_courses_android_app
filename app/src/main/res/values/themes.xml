@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="Theme.myApp" parent="Theme.Material3.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="textAllCaps">true</item>
+
+    </style>
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <!-- Customize the color of the menu items -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DrawerTheme" parent="Theme.Material3.Light">
+        <item name="android:textSize">17sp</item> <!-- menu item text size-->
+        <item name="listPreferredItemHeightSmall">40dp</item><!-- menu item height-->
+    </style>
+
+</resources>

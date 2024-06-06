@@ -1,0 +1,41 @@
+<resources>
+    <!-- TODO: this is the main string file the others in case you want to translate the app to another lang -->
+    <!-- TODO: can be translated -->
+    <string name="app_name" translatable="true">University of Saida</string>
+    <string name="open" translatable="true">Open</string>
+    <string name="close" translatable="true">Close</string>
+    <string name="share_app" translatable="true">Share The App</string>
+    <string name="exit" translatable="true">Exit</string>
+    <string name="exit_dialog_title" translatable="true">Confirm Exit</string>
+    <string name="exit_dialog_msg" translatable="true">are you sure you want to exit the application</string>
+    <string name="share_dialog_msg" translatable="true">install this amazing app</string>
+    <string name="share_dialog_title" translatable="true">Share…</string>
+    <string name="yes" translatable="true">yes</string>
+    <string name="no" translatable="true">no</string>
+    <string name="cancel_exit" translatable="true">exit canceled</string>
+    <string name="buttonnavigationbtntxt2" translatable="true">Main</string>
+    <string name="buttonnavigationbtntxt3" translatable="true">Settings</string>
+
+    <string name="presentation_txt">Presentation of university</string>
+
+
+    <!-- TODO:   these are the items description on explore fragment the main one     -->
+
+
+    <!-- TODO: developer links -->
+    <string name="app_link" translatable="false">https://play.google.com/store/apps/details?id=com.university.hafsa</string>
+
+
+    <!--    splash screen strings-->
+    <string name="image2" translatable="false">TODO</string>
+    <string name="image1" translatable="false">TODO</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    @todo complete the other-->
+    <string name="lmd1">hafsa</string>
+    <string name="lmd2">hello hafsa</string>
+    <string name="lmd3">hello hafsa</string>
+    <string name="default_notification_channel_id">bdfhfdhdfhd</string>
+</resources>

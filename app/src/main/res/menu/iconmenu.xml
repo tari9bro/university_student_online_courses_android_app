@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/_deconect"
+        android:icon="@drawable/ic_exit"
+        android:title="deconect" />
+    <item
+        android:id="@+id/_exitApp"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit_App" />
+    <item
+        android:id="@+id/_shareApp"
+        android:icon="@drawable/ic_share"
+        android:title="Share_App" />
+
+    <item
+        android:id="@+id/_Modules"
+        android:title="Modules">
+        <menu>
+
+            <item
+                android:id="@+id/_Ai"
+                android:title="Artificial intelligence" />
+            <item
+                android:id="@+id/_SW"
+
+                android:title="Scientific writing" />
+            <item
+                android:id="@+id/_SSD"
+                android:title="Structured Seeding Data" />
+            <item
+                android:id="@+id/_MA"
+                android:title="Mobile Applications" />
+            <item
+                android:id="@+id/_Startup"
+                android:title="Create and develop a Startup" />
+            <item
+                android:id="@+id/_ITSecurity"
+                android:title="IT security" />
+        </menu>
+    </item>
+
+
+
+
+<!--    android:icon="@drawable/ic_about"-->
+</menu>

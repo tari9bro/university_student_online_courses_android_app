@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar"
+        android:orientation="vertical"
+        tools:context="com.university.hafsa.view.activities.LoginActivity">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/light_blue_A400"
+            android:minHeight="?attr/actionBarSize"
+            style="@style/ToolbarStyle"
+            app:titleTextColor="@color/black" />
+
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:background="@drawable/side_nav_bar"
+            android:fitsSystemWindows="true"
+            tools:openDrawer="start">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="0dp">
+
+                <fragment
+                    android:id="@+id/main_login"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    app:defaultNavHost="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:navGraph="@navigation/login_graph"/>
+
+<!--                -->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/navmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:backgroundTint="#F1EEEE"
+                android:fitsSystemWindows="true"
+                app:headerLayout="@layout/navheader"
+                app:itemBackground="@drawable/nav_item_background"
+                app:itemIconTint="#525557"
+                app:itemTextAppearance="@style/DrawerTheme"
+                app:itemTextColor="#525557"
+                app:menu="@menu/ex_menu"
+                app:theme="@style/DrawerTheme">
+
+
+            </com.google.android.material.navigation.NavigationView>
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+    </RelativeLayout>

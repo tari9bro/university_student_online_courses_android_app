@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "41943258869",
+    "firebase_url": "https://ilyes-5479d-default-rtdb.firebaseio.com",
+    "project_id": "ilyes-5479d",
+    "storage_bucket": "ilyes-5479d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41943258869:android:c8a04ee14504b81ac357bc",
+        "android_client_info": {
+          "package_name": "com.university.hafsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMrOu1IzIAfRIq8eOlNKU9jBmJOfCbZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
